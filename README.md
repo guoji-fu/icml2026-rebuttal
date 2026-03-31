@@ -41,7 +41,7 @@ Below are the high-resolution SWD scaling plots (mean ± standard deviation acro
 | Concentric Hyperspheres | Subspace Mixture of Gaussians |
 | :---: | :---: |
 | <img src="exp_sphere.png" width="100%" /> | <img src="exp_mog.png" width="100%" /> |
-| **Figure 1:** *For $d=4$, SWD flatlines for OU, while Adaptive Drift strictly outperforms it and maintains consistent downward scaling.* | **Figure 2:** *Adaptive Drift successfully navigates the deep low-density valleys between disjoint modes, significantly outperforming OU.* |
+| **Figure 1:** *For d=4, SWD flatlines at a high error floor for Standard OU, while Adaptive Drift strictly outperforms it by converging to a significantly lower approximation limit.* | **Figure 2:** *Adaptive Drift successfully navigates the deep low-density valleys between disjoint modes, achieving a substantially lower error floor than Standard OU.* |
 
 These plots explicitly verify our theoretical predictions regarding the structural breakdown for $d>2$. 
 They demonstrate that the Standard OU process suffers a fundamental approximation collapse (flatlining at a high error floor) that cannot be overcome simply by increasing dataset size. 
